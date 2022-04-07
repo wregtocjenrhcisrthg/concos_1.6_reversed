@@ -157,9 +157,7 @@ DWORD secondOfFourthMessyPayload()
 {
     HDC DC = GetDC(0);
     POINT Point;
-
-    GetSystemMetrics(0);
-    GetSystemMetrics(1);
+    
     while (1)
     {
         GetCursorPos(&Point);
